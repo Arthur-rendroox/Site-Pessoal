@@ -1,0 +1,68 @@
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-image: url('https://i.pinimg.com/736x/35/87/66/35876651d734a512e3061b97e49309fb.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+header{
+  background-color: black;
+  padding: 15px 0;
+}
+.menu ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+.menu a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.menu a:hover,
+.menu .ativo{
+  color: white;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+}
+.foto img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: block;
+  margin: 40px auto;
+  border: 4px solid black;
+  box-shadow: 0 0 20px black;
+}
+.Tudo{
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-shadow: 2px 2px 5px black;
+}
+.linha{
+  font-size: 20px;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.4);
+  text-align: left;
+}
+h1{
+  text-align: center;
+  font-size: 38px;
+  text-shadow: 2px 2px 5px black;
+}
+h2{
+  text-align: center;
+  font-size: 24px;
+  text-shadow: 2px 2px 5px black;
+}
+.Formulario{
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+}
